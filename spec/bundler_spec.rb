@@ -1,3 +1,37 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@NadavsSchwartz 
+NadavsSchwartz
+/
+using-bundler-onl01-seng-ft-061520
+forked from learn-co-students/using-bundler-onl01-seng-ft-061520
+0
+017
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+using-bundler-onl01-seng-ft-061520/spec/bundler_spec.rb /
+@drakeltheryuujin
+drakeltheryuujin Update test to specify SSH URL
+Latest commit b83cbb4 on Aug 8, 2018
+ History
+ 8 contributors
+@spencer1248@changamanda@SophieDeBenedetto@maxwellbenton@drakeltheryuujin@gj@aviflombaum@ahimmelstoss
+104 lines (86 sloc)  3.66 KB
+  
+Code navigation is available!
+Navigate your code with ease. Click on function and method calls to jump to their definitions or references in the same repository. Learn more
+
 require 'bundler'
 
 describe "Bundler" do
@@ -38,7 +72,7 @@ describe "Bundler" do
     end
 
     # http://bundler.io/git.html
-    it "should list the awesome_print gem specifying a remote git repository (use github)" do
+    it "should list the awesome_print gem specifying a remote git repository using the SSH URL (use github)" do
       expect(@gemfile_text =~ /gem ['"]awesome_print['"], ?(git:|:git ?=>) ?['"]git@github\.com:awesome\-print\/awesome_print\.git['"]/).not_to eq(nil)
     end
 
@@ -102,3 +136,15 @@ describe "Bundler" do
     end
   end
 end
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
